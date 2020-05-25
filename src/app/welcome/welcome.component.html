@@ -1,3 +1,10 @@
 <div class="container">
-    <h1>{{welcomeMessage}}</h1>
+    <div>
+        <span>{{welcomeMessage}}</span>
+    </div>
+    <div></div>
+    <div>
+        <button (click)="getWelcomeMessage()" class="btn btn-success">hit the service?</button>
+    </div>
+    <span class="text-muted"> {{welcomeMessageFromService}} </span>
 </div>
